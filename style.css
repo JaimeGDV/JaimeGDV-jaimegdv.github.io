@@ -1,0 +1,77 @@
+body {
+  background: #131b21;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+svg#flower-frame {
+  height: 90vh;
+  width: 100%;
+}
+
+
+
+#Footer_group_1_,
+[id^=PinkFlowerGroup],
+[id^=BaseGroup] path,
+[id^=LeafGroup] path,
+path[id^=Stroke],
+g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
+#Bud8_1_,
+#Bud10_1_,
+#Bud23_1_,
+#Bud26_1_,
+[id^=Dots],
+[id^=Flourish] {
+  visibility: hidden;
+}
+
+.contenedor-secundario {
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  top: 320px; left: 900px;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+.contenedor-secundario:hover {
+  opacity: 0;
+}
+
+.contenedor-3 {
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  top: 370px; left: 840px;
+  transition: opacity 3s ease-in-out;
+  opacity: 1;
+}
+
+.contenedor-4 {
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  top: 420px; left: 870px;
+  transition: opacity 3s ease-in-out;
+  opacity: 1;
+}
+
+.mi-elemento {
+  /* Estilo inicial */
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  top: 320px; left: 850px;
+  text-align: center;
+  display: none; /* Oculta los elementos al principio */
+  opacity: 1;
+  transition: opacity 0.5s ease; /* Transición de opacidad de 0.5 segundos */
+}
+
+.mostrarBoton {
+  position: absolute;
+  top: 420px; left: 940px;
+}
